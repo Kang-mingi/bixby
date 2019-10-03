@@ -1,0 +1,14 @@
+action (SearchDisease) {
+  description (적절한 질병을 찾아 주기)
+  collect {
+    input (inputPart) {
+      type (InputPart)
+      min (Optional) max (One)
+    }
+    input (inputSymptom) {
+      type (InputSymptom)
+      min (Optional) max (One)
+    }
+  }
+  output (Results)
+}

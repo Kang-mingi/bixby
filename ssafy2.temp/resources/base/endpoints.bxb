@@ -1,0 +1,9 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (SearchDisease) {
+      accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+      local-endpoint (searchDisease.js)
+    }
+
+  }
+}
