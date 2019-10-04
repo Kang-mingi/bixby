@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (SearchDisease) {
-      accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+      accepted-inputs (inputPart, inputSymptom)
       local-endpoint (searchDisease.js)
     }
 

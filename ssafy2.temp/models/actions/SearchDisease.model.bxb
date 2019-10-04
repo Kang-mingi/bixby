@@ -1,4 +1,5 @@
 action (SearchDisease) {
+  type(Search)
   description (적절한 질병을 찾아 주기)
   collect {
     input (inputPart) {
